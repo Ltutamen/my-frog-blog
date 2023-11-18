@@ -1,0 +1,15 @@
+.idea
+public/.frog
+public/blog
+public/css
+public/feeds
+public/js
+public/tags
+public/_src/posts/*.md
+public/_src/*.md
+public/*.html
+public/img/*
+*.xml
+*.css
+
+

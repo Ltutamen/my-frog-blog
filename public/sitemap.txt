@@ -1,0 +1,3 @@
+http://www.example.com/blog/2023/kiss-principe-foundation-of-software-deesign.html
+http://www.example.com/blog/2023/technical-details-on-this-site.html
+http://www.example.com/About.html
