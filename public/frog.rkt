@@ -7,6 +7,7 @@
   (-> any)
   (current-scheme/host "http://blog.troideann.site")
   (current-title "Troideann blog")
+  (current-decorate-feed-uris? #f)
   (current-permalink "/blog/{year}/{title}.html"))
 
 ;; Called once per post and non-post page, on the contents.

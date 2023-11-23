@@ -41,3 +41,4 @@ And searching on frog documentation for 'google' or 'anal' yeilds no results
 ### Action points: 
 - move from frog to even simpler site generator
 - acquire free domain name
+- use CDN for images (apparently https://vercel.com/ provide some)
