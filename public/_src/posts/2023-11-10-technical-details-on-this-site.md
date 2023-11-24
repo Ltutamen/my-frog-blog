@@ -7,6 +7,19 @@ TLDR: use frog site generator, build with fish, build image with goStatic, deplo
 
 <!-- more -->
 
+## Step 0: installing racket & frog
+ Install [Racket](https://racket-lang.org/) on your computer. Install frog using raco: 
+```
+$ raco pkg install frog
+```
+see [frog guide](https://docs.racket-lang.org/frog/Quick_start.html)
+
+Use command:
+```
+$ raco frog -n "Blog post title"
+```
+to create your first (hopefully not last) post.
+
 ## Step 1: generating static site from md
 Static site generator has to be simple to use and lightweight, and [frog](https://docs.racket-lang.org/frog/index.html) fits the requirements. At first, I've tried to follow Luke Smith's [video](https://www.youtube.com/watch?v=ZFL09qhKi5I) on static sites & Hugo generator, but it turned out too complicated for my needs.\
 Follow frog documentation to generate site pages. **IMPORTANT** for weired reasons, frog places social media footer on your page, with all sorts of internet syphilis: tw*tter, g**gle-plus, digus(wtf is that, imagine being called 'digus', LMAO). Goto _src/post-template.html and remove footer section:
